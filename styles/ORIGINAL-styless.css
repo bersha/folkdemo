@@ -13,8 +13,8 @@
  */
 
  :root {
-  --primary-color: #0175BC;
-  --secondary-color: #F4F8FA;
+  --primary-color: #8821f4;
+  --secondary-color: #3C1268;
   --button-radius: 12px;
   --border-color: #eaeaea;
 }
@@ -414,7 +414,7 @@ a.button-primary {
   text-decoration: none;
   text-align: center;
   margin: 15px 0;
-  text-transform: none;
+  text-transform: uppercase;
   border-radius: 24px;
 }
 
