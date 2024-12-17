@@ -50,7 +50,7 @@
 }
 
 .teaser > div:not(.teaser-img-col) {
-  color: var(--color-neutral-50);
+  color: #003E80;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
 }
 
 .teaser a:any-link.teaser-link {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
