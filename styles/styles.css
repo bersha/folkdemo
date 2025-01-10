@@ -196,7 +196,7 @@ body:not(.appear) {
 }
 
 main .block {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 30px;
 }
 
@@ -205,13 +205,13 @@ main .block {
 } */
 
 main {
-  margin-top: 170px;
+  /* margin-top: 170px; */
   flex: 1;
 }
 
 @media (width < 768px) {
   main {
-    margin-top: 105px;
+    /* margin-top: 105px; */
   }
 }
 
@@ -264,7 +264,7 @@ h6 {
   border-bottom: 2px solid var(--primary-color);
   content: '';
   display: block;
-  padding-top: 8px;
+  /* padding-top: 8px; */
   min-width: 84px;
   width: fit-content;
 }
@@ -526,7 +526,7 @@ main img {
 
 /* sections */
 main .section {
-  padding: 2rem 15px;
+  /* padding: 2rem 15px; */
 }
 
 main .section.extra-width > div {
