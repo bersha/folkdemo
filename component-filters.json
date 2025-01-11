@@ -35,7 +35,8 @@
       "commerce-cart",
       "commerce-checkout",
       "commerce-order-confirmation",
-      "columnsjo"
+      "columnsjo",
+      "dynamic-media-asset"
     ]
   },
   {
@@ -75,7 +76,7 @@
   },
   {
     "id": "column",
-    "components": ["text", "image", "button", "title"]
+    "components": ["text", "image", "button", "title", "dynamic-media-asset"]
   },
   {
     "id": "accordion",
