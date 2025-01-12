@@ -6,6 +6,7 @@ main .hero-container > div {
 
 /* Hero Section Styles */
 .hero {
+  margin-top: -160px;
   position: relative;
   display: flex;
   flex-direction: row-reverse;

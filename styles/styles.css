@@ -200,9 +200,10 @@ main .block {
   margin-bottom: 30px;
 }
 
-/* header {
-  height: var(--nav-height);
-} */
+header {
+   /* height: var(--nav-height); */
+   height: 15rem;
+}
 
 main {
   /* margin-top: 170px; */
