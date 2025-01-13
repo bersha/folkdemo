@@ -134,7 +134,7 @@
     "fields": [
       {
         "component": "custom-asset-namespace:custom-asset",
-        "name": "dm-image",
+        "name": "image",
         "label": "Dynamic Media Image",
         "configUrl": "https://main--folkdemo--bersha.hlx.page/tools/assets-selector/image.config.json",
         "valueType": "string"
