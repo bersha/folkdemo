@@ -17,7 +17,8 @@ import {
   loadScript,
   toCamelCase,
   toClassName,
-  createOptimizedPicture as libCreateOptimizedPicture
+  createOptimizedPicture as libCreateOptimizedPicture,
+  createDmOptimizedPicture
 } from './aem.js';
 import { getProduct, getSkuFromUrl, trackHistory } from './commerce.js';
 import initializeDropins from './dropins.js';
@@ -360,7 +361,11 @@ function decorateButtons(main) {
         { ...n, ...formatObj }
       ));
     }
-    const picture = createOptimizedPicture(deliveryUrl, altText, false, breakpoints);
+    //const picture = createOptimizedPicture(deliveryUrl, altText, false, breakpoints);
+    const picture = createDmOptimizedPicture(deliveryUrl, altText, false, breakpoints);
+    // const image = document.createElement('img');
+    // image.setAttribute('src', deliveryUrl);
+
     
     console.log(picture);
     a.parentElement.replaceWith(picture);
