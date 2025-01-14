@@ -763,6 +763,7 @@ export {
   decorateButtons,
   decorateIcons,
   decorateSections,
+  createDmOptimizedPicture,
   decorateTemplateAndTheme,
   fetchPlaceholders,
   getMetadata,
