@@ -363,8 +363,8 @@ function decorateButtons(main) {
     }
     //const picture = createOptimizedPicture(deliveryUrl, altText, false, breakpoints);
     //const picture = createDmOptimizedPicture(deliveryUrl, altText, false, breakpoints);
-    const image = document.createElement('img');
-    image.setAttribute('src', deliveryUrl);
+    const picture = document.createElement('img');
+    picture.setAttribute('src', deliveryUrl);
 
     
     console.log(picture);
