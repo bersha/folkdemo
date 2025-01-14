@@ -362,9 +362,9 @@ function decorateButtons(main) {
       ));
     }
     //const picture = createOptimizedPicture(deliveryUrl, altText, false, breakpoints);
-    const picture = createDmOptimizedPicture(deliveryUrl, altText, false, breakpoints);
-    // const image = document.createElement('img');
-    // image.setAttribute('src', deliveryUrl);
+    //const picture = createDmOptimizedPicture(deliveryUrl, altText, false, breakpoints);
+    const image = document.createElement('img');
+    image.setAttribute('src', deliveryUrl);
 
     
     console.log(picture);
