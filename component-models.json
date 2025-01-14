@@ -138,12 +138,6 @@
         "label": "Dynamic Media Image",
         "configUrl": "/content/folkdemo.resource/tools/assets-selector/image.config.json",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Alt Text",
-        "valueType": "string"
       }
     ]
   },
